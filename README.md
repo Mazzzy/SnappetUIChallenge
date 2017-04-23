@@ -43,6 +43,3 @@ At [Snappet](http://www.snappet.org), we care about data and we care about code.
     * JavaScript, especially when it comes to end-to-end development. As a JS developer one can develop for both server-side and client-side.
 	* For asynchronous development and amazing feature of event-loop to achieve multi-threading and server which can handle huge requests as well (nodeJS)
 	* And of course lot of amazing open source frameworks and libraries (Angular, React, Vue etc)
-
-Thank you for your time, we look forward to hearing from you!  
-Thanks to the [JustEat Challenge](https://github.com/justeat/JustEat.Recruitment.UI) for providing inspiration.

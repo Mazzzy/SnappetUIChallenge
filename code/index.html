@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Snappet Front-end assignment</title>
+  <link rel="stylesheet" href="css/my_grid.css" />
+  <link rel="stylesheet" href="css/app_style.css" />
+</head>
+<body> 
+  <div class="app-wrapper"> 
+    <div class="app-header">
+      <div class="mcontainer">
+        <div class="mrow">
+          <div class="mcol-12 center header-container">
+            <h6>Dashboard / Snappet /</h6>
+            <div class="header-title">
+            	<div class="title-left">
+            		<img src="images/icons/gift.svg" class="img-icon" />
+            	</div>
+            	<div class="title-right">
+            		<h2> Front-End Challenge</h2>
+            	</div>             
+                
+            </div>
+          </div>
+        </div>      
+      </div>
+    </div>
+    <div class="app-main-content">
+  	  <div class="mcontainer">
+	    <div class="app-grid">
+	      <div class="mrow content-head-wrapper">
+	        <div class="mcol-5">
+		        <div class="toggle-btn-wrapper">
+		          <button class="app-btn toggle-left-btn toggle-btn active">
+		          	<span class="btn-icon"><img src="images/icons/balls.svg" /></span>
+		          </button>
+	          	  <button class="app-btn toggle-right-btn toggle-btn">
+	          	  	<span class="btn-icon"><img src="images/icons/person.svg" /></span>
+	          	  </button>
+		        </div>
+		        <div class="selector-wrapper">
+		          <div class="row selected">
+                    <button id="btnSelectGrade" class="app-btn head-btn"><span class="btn-txt">Math Grade 5</span> <span class="btn-icon"><img src="images/icons/down.svg" /></span></button>
+                  </div>
+                  <div class="dropdown-wrapper" id="gradeDropdown">
+                    <div class="option">Math Grade 3</div>
+                    <div class="option">Math Grade 4</div>
+                    <div class="option">Math Grade 5</div>
+                  </div>
+		        </div>
+		        <div class="clear-float"></div>
+	        </div>
+	        <div class="mcol-7 head-btn-wrapper">
+	        	<div class="mcol-3"></div>
+		        <div class="mcol-5">
+		          <button class="app-btn primary-btn head-btn"><span class="btn-txt">Add learning objective</span> <span class="btn-icon"><img src="images/icons/plus.svg" /></span></button>
+		        </div>
+		        <div class="mcol-4">
+		          <button class="app-btn primary-btn head-btn secondary-btn"><span class="btn-txt">Automatic update</span> <span class="btn-icon"><img src="images/icons/refresh.svg" /></span></button>
+		        </div>
+	        </div>
+	      </div>
+	      <div class="mrow">
+	        <div class="mcol-5">
+	          <h5>Learning Objectives</h5>
+	        </div>
+	        <div class="mcol-7">
+	          <h5>Pupils</h5>
+	        </div>
+	      </div>
+	      <div id="infoDetails">		      
+	      </div>   
+	    </div>      
+	  </div>
+    </div>
+  </div> 
+</body>
+<script src="js/jquery-3.2.1.min.js"></script>
+<script src="js/app.js"></script>
+</html>

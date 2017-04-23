@@ -1,0 +1,267 @@
+/* 
+  * app related custom style
+*/
+
+/* wrapper style */
+.app-wrapper {
+  background-color: #eff2f5;
+  min-height: 100%;
+}
+
+/* header style */
+.app-header {
+  background-color:#34A3D7;
+  height: 150px;
+  width: 100%;
+  z-index: 1;
+}
+.app-header h1,
+.app-header h2,
+.app-header h6 {
+  color: #fff;
+}
+
+.app-header .header-container {
+  margin-top: 26px;
+}
+
+.app-header .header-title div{
+  display: inline-block;
+}
+
+.app-header .header-title div.title-right{
+  position: relative;
+  top:-6px;
+}
+
+/* main content style */
+
+.app-main-content {
+  position: relative;
+  margin-top: -40px;
+  z-index: 2;
+}
+
+.app-main-content .mcontainer {
+  background-color: #fff;
+  border-radius: 12px;
+}
+
+.app-main-content .content-head-wrapper{
+  margin-bottom: 16px;
+  padding-top: 14px;
+}
+
+/* (head left buttons) toggle button style */
+.app-main-content .toggle-btn-wrapper {
+  width: 110px;
+  float: left;
+  margin: 0.5rem 0;
+}
+.toggle-btn-wrapper .app-btn {
+  width: 50px;
+  color: #cfcfcf;
+}
+.toggle-btn-wrapper .app-btn span.btn-icon {
+  left:12px;
+}
+.toggle-btn-wrapper .toggle-btn.active {
+  background-color: #eff2f5;
+}
+.toggle-btn-wrapper .toggle-left-btn{
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.toggle-btn-wrapper .toggle-right-btn{
+  margin-left: -5px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.app-main-content .toggle-btn-wrapper .toggleIcon.active {
+  background-color: #eff2f5 !important;
+}
+
+.app-main-content .selector-wrapper {
+  width: 180px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+  float: left;
+  margin: 0.5rem 0;
+}
+
+.app-main-content .selector-wrapper .dropdown-wrapper {
+  display: none;
+  position: relative;
+  top:-2px;
+  z-index: 3;
+}
+.app-main-content .dropdown-wrapper .option {
+  background-color: #fff;
+  padding: 8px 0;
+  font-size: 14px;
+  cursor: pointer;
+  border:1px solid #C2C2C2;
+  border-top: none;
+}
+.app-main-content .dropdown-wrapper .option:first-child{
+  border-top:1px solid #C2C2C2;
+}
+.app-main-content .dropdown-wrapper .option:hover{
+  background-color: #eff2f5;
+}
+
+/* head right buttons style */
+.app-main-content .head-btn {
+  width: 100%;
+}
+
+/* grid's main content style */
+.app-main-content .col-info p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+.app-main-content .app-grid div.mrow:before {
+  content : "";
+  position: absolute;
+  left    : 2%;
+  bottom  : 0;
+  height  : 1px;
+  width   : 95%;  
+  border-bottom:1px solid #C2C2C2;
+}
+.app-main-content .app-grid div.mrow.content-head-wrapper:before {
+  border-bottom: none;
+}
+.app-main-content .app-grid div.mrow:last-child:before {
+  border-bottom: none;
+}
+.app-main-content .col-pcircle .circle {
+  width: 14px;
+  height: 14px;
+  border-radius: 7px;
+  background-color: #6eb2dc;
+  margin: 1px;
+  display: inline-block;
+}
+.app-main-content .col-pcircle .circle.blue {
+  background-color: #2c91ce;
+}
+.app-main-content .col-pcircle .circle.yellow {
+  background-color: #fcdf33;
+}
+.app-main-content .show-btn span{
+  color: #34A3D7;
+}
+/* common elements style */
+button.app-btn {
+  color: #333;
+  background-color: #fff;
+  border-color: #ccc;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  background-image: none;
+  border: 1px solid #C2C2C2;
+  border-radius: 4px;
+  cursor: pointer;
+  position: relative;
+  min-height: 46px;
+  -webkit-box-shadow: 0 4px 12px -4px #cfcfcf;
+  -moz-box-shadow: 0 4px 12px -4px #cfcfcf;
+  box-shadow: 0 4px 12px -4px #cfcfcf;
+}
+
+button.app-btn:hover {
+  background-color: #eff2f5;
+}
+button.primary-btn {
+  color: #fff;
+  background-color: #34A3D7;
+  border-color: #34A3D7;
+}
+button.primary-btn:hover {
+  background-color: #2A99C8;
+}
+button.secondary-btn {
+  background-color: #C32451;
+  border-color: #C32451;
+}
+button.secondary-btn:hover{
+  background-color: #B91A47;
+}
+button.primary-btn span.btn-txt {
+  color: #fff;
+}
+button.app-btn span.btn-txt{
+  position: absolute;
+  top: 12px;
+  left: 16px;
+}
+button.app-btn span.btn-icon {
+  position: absolute;
+  top: 12px;
+  right: 16px;
+}
+button.app-btn span.btn-icon img{
+  width: 22px;
+}
+.clear-float {
+  clear: both;
+}
+
+/* images */
+.img-icon {
+  width: 45px;
+}
+
+/* media queries */
+
+/* tablets - especially ipads (1, 2, 3, 4 and mini) */
+@media only screen 
+  and (min-width: 768px) 
+  and (max-width: 1024px) {
+  .app-header {
+    height: 150px;
+  }
+  .app-main-content .toggle-btn-wrapper {
+    width: 40%;
+  }
+  .app-main-content .selector-wrapper {
+    width: 60%;
+  }
+  .content-head-wrapper .head-btn-wrapper .mcol-3 {
+    display: none;
+  }
+  .content-head-wrapper .head-btn-wrapper .mcol-5 {
+    width: 50%;
+  }
+  .content-head-wrapper .head-btn-wrapper .mcol-4 {
+    width: 40%;
+  }  
+}
+
+/* phone - especially iphones (4, 5, 6)*/
+@media only screen 
+  and (min-width: 360px) 
+  and (max-width: 667px) { 
+  .app-header {
+    height: 180px;
+  }
+}
+
+/* desktops - especially non-retina ones */
+@media screen 
+  and (min-width: 1200px) 
+  and (max-width: 1600px) {
+  .content-head-wrapper .head-btn-wrapper .mcol-3 {
+    display: block;
+  }
+}
